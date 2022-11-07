@@ -10,9 +10,9 @@ class Feedback {
 }
 
 List<Feedback> feedbacks = [
-  Feedback(name: "Zainullah", review: review, image: "images/zain.jpeg", id: 1, color: Color(0xFFFFF3DD),),
-  Feedback(name: "Zainullah", review: review, image: "images/zain.jpeg", id: 2, color: Color(0xFFFFF3DD),),
-  Feedback(name: "Zainullah", review: review, image: "images/zain.jpeg", id: 3, color: Color(0xFFFFF3DD),),
+  Feedback(name: "Ronal Thampan", review: review, image: "images/people.png", id: 1, color: const Color(0xFFFFF3DD),),
+  Feedback(name: "Ronal Thampan", review: review, image: "images/people.png", id: 2, color: const Color(0xFFFFF3DD),),
+  Feedback(name: "Ronal Thampan", review: review, image: "images/people.png", id: 3, color: const Color(0xFFFFF3DD),),
 ];
 
 String review = 'bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla ';

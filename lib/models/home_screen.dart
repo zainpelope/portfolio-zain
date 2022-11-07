@@ -2,6 +2,8 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:portfolio_zain/constants.dart';
+import 'package:portfolio_zain/contact/contact_section.dart';
+import 'package:portfolio_zain/feedback/feedback_section.dart';
 import 'package:portfolio_zain/recent/recent_work_section.dart';
 import 'package:portfolio_zain/sections/about/about_section.dart';
 
@@ -22,6 +24,9 @@ class HomeScreen extends StatelessWidget {
             AboutSection(),
             ServiceSection(),
             RecentWorkSection(),
+            FeedbackSection(),
+            SizedBox(height: kDefaultPadding,),
+            ContactSection(),
             SizedBox(height: 500,)
           ],
         ),

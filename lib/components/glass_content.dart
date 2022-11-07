@@ -20,7 +20,7 @@ class GlassContent extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding * 2),
           constraints:
-              BoxConstraints(maxWidth: 1110, maxHeight: size.height * 0.8),
+              BoxConstraints(maxWidth: 1110, maxHeight: size.height * 1.0),
           width: double.infinity,
           color: Colors.white.withOpacity(0),
           child: Column(
